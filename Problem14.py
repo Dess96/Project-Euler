@@ -6,7 +6,7 @@ class collatz():
     def __init__(self):
         pass
 
-    def get_sequence(self):
+    def get_sequence(self): #Se pueden hacer los calculos hasta n/2. Se pueden usar las cadenas anteriores para no realcularlas en la sig iteracion
         i = 13
         gr_size = 0
         gr_n = 0
